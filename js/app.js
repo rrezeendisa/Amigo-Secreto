@@ -9,7 +9,7 @@ function adicionar() {
         return;
     }
     if(amigos.includes(amigo.value)){
-        alert('Nome já adicionado');
+        alert('Esse nome já foi adicionado');
         amigo.value = '';
         return;
     }
